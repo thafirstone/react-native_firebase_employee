@@ -1,0 +1,73 @@
+// Place your settings in this file to overwrite the default settings
+{
+  "editor.fontSize": 12,
+  "editor.tabSize": 2,
+  "editor.wordWrapColumn": 80,
+  "editor.snippetSuggestions": "top",
+  "editor.minimap.enabled": true,
+  "files.exclude": {
+    "**/.git": true,
+    "**/.svn": true,
+    "**/.DS_Store": true,
+    "**/node_modules": true,
+    "**/.idea": true,
+    "**/android": true,
+    "**/ios": true,
+    "**/.vscode": false,
+    "**/yarn.lock": true,
+    "**/tmp": true,
+    "**/.tmp": true
+  },
+  "files.watcherExclude": {
+    "**/.git/objects/**": true,
+    "**/node_modules/**": true,
+    "**/tmp": true
+  },
+  "emmet.syntaxProfiles": {
+    "javascript": "jsx"
+  },
+  "search.exclude": {
+    "**/node_modules": true,
+    "**/bower_components": true,
+    "**/.git": true,
+    "**/.DS_Store": true,
+    "**/tmp": true,
+    "**/coverage": true
+  },
+  "files.trimTrailingWhitespace": true,
+  "html.suggest.html5": true,
+  "npm-intellisense.scanDevDependencies": true,
+  "stylelint.enable": true,
+  "typescript.check.tscVersion": false,
+  "window.zoomLevel": 0,
+  "javascript.validate.enable": false,
+  "extensions.autoUpdate": true,
+  "terminal.integrated.fontSize": 13,
+  "terminal.integrated.fontFamily": "Menlo, Monaco, 'Courier New', monospace",
+  "terminal.integrated.cursorStyle": "line",
+  "fileHeaderCommentHelper.languageConfigs": {
+    "language_typescript": {
+      "template": [
+        "/**",
+        " * Project: $(projectName)",
+        " * File: $(currentFile)",
+        " * Author: DS Fred",
+        " */\n"
+      ]
+    }
+  },
+  "workbench.welcome.enabled": false,
+  "workbench.iconTheme": "material-icon-theme",
+  "material-icon-theme.showUpdateMessage": false,
+  "eslint.autoFixOnSave": true,
+  "editor.formatOnSave": false,
+  "flow.useNPMPackagedFlow": true,
+  "workbench.colorTheme": "One Monokai",
+  "prettier.singleQuote": true,
+  "prettier.printWidth": 80,
+  "prettier.trailingComma": "all",
+  "prettier.semi": true,
+  "prettier.useTabs": false,
+  "prettier.bracketSpacing": true,
+  "color-highlight.markerType": "dot"
+}
